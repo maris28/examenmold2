@@ -15,4 +15,12 @@ EC2, Python, Flask, Git
 - Para dar permisos a la isntancia usamos este comando para generar la keygen ssh-keygen -t ed25519 -C "correo_repositorio"
 - Accedemos a .ssh, cd .ssh
 - Obtenemos la clave pública, cat id_ed25519.pub
-- En git, el repositorio, seleccionamos settings
+- En git, el repositorio, seleccionamos settings, deploy keys y ponemos la clave pública.
+- En la EC2 clonamos el repositorio con git clone git@github.com:maris28/examenmold2.git
+
+## Estructura de ficheros
+- Creamos una carpeta general para el proyecto, src
+- Dentro de src crearemos la carpeta "templates" donde estarán los archivos html, las plantillas que inyectará el framework.
+- A la misma altura que templates tendremos:
+    - El archivo app.py, 
+    - El archivo clases.py, incluimos los atributos del empleado y métodos del empleado.
