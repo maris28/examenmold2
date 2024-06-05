@@ -22,7 +22,7 @@ EC2, Python, Flask, Git
 - Creamos una carpeta general para el proyecto, src
 - Dentro de src crearemos la carpeta "templates" (mkdir templates) donde estarán los archivos html, las plantillas que inyectará el framework.
 - A la misma altura que templates tendremos:
-    - El archivo app.py, 
+    - El archivo app.py, contiene toda la lógica de la aplicación, inicializamos la aplicación, inyectamos las rutas de los templates. 
     - El archivo clases.py, incluimos los atributos del empleado y métodos del empleado.
  
-# Para que arranque la aplicación utilizaremos el comando python3 app.py
+### Para que arranque la aplicación utilizaremos el comando python3 app.py
